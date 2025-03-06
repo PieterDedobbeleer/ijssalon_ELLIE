@@ -1,8 +1,6 @@
-def mijn_functie_1(a):
-    a == [2,4,10,12] 
+def mijn_functie_1(a): 
     uitvoer = a**2
-    print(uitvoer)
-    #return uitvoer
+    return uitvoer
 #print(mijn_functie_1(12))
 
 def mijn_functie_2a(a,b):

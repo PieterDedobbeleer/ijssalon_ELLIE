@@ -33,8 +33,8 @@ def gemiddelde(mijn_lijst):
     totaal = 0
     for i in mijn_lijst:
         totaal+=i
-    mijn_lijst=int(mijn_lijst[0])
-    gemiddelde = totaal/7
+    #mijn_lijst=int(mijn_lijst[0])
+    gemiddelde = totaal/len(mijn_lijst)
     print(f"De gemiddelde inkomsten van deze week zijn {round(gemiddelde,2)} Euro!")
 gemiddelde([20,234,212,453,387,987,43])
 
